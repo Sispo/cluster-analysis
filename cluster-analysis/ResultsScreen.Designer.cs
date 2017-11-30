@@ -36,6 +36,9 @@
             // 
             // listBox
             // 
+            this.listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.listBox.FormattingEnabled = true;
             this.listBox.ItemHeight = 21;
             this.listBox.Location = new System.Drawing.Point(18, 57);
@@ -57,6 +60,8 @@
             // 
             // goBtn
             // 
+            this.goBtn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.goBtn.BackColor = System.Drawing.Color.DarkCyan;
             this.goBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.goBtn.ForeColor = System.Drawing.Color.White;

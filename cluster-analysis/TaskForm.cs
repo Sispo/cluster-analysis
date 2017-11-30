@@ -111,9 +111,9 @@ namespace EMPI7
         public void FillGrid()
         {
             dataGridView.Width = (parametersCount + 1) * 120 + 20 > 780 ? (parametersCount + 1) * 120 + 20 : 780;
-            dataGridView.Height = (objectsCount + 1) * 50 + 80;
+            dataGridView.Height = (objectsCount + 1) * 50 + 150;
             this.Width = dataGridView.Width + 40 > 780 ? dataGridView.Width + 40 : 780;
-            this.Height = dataGridView.Height + 150;
+            this.Height = dataGridView.Height + 100;
             dataGridView.ColumnCount = parametersCount;
             dataGridView.RowHeadersWidth = 150;
             for (int i = 0; i < parametersCount; i++)
